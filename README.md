@@ -13,12 +13,12 @@ I'm an iOS Developer hailing from China.
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/swift/swift.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/objective-c/objective-c.png"></code>
 
-![Leo's GitHub stats](https://github-readme-stats.vercel.app/api?username=iTofu&show_icons=true&include_all_commits=true&theme=gruvbox_light&hide_border=true&title_color=8E354A&custom_title=Octree%27s%20Github%20Stats)
+<a href="https://github.com/iTofu"><img align="center" src="https://github-readme-stats.vercel.app/api?username=iTofu&show_icons=true&include_all_commits=true&theme=gruvbox_light&hide_border=true&title_color=8E354A&custom_title=Octree%27s%20Github%20Stats" alt="Leo's GitHub stats" /></a>
 
 <br />
 <br />
 
-<a href="https://twitter.com/leodaxia">
+<a href="https://twitter.com/leodaxia" target="_blank">
   <img align="right" alt="Leo | Twitter" width="21px" src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/twitter.svg" />
 </a>
 
