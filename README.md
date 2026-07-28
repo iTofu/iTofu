@@ -1,3 +1,5 @@
+<p align="center"><a href="https://leoxv.com"><img width="50%" src="./assets/header.svg" alt="Hello! I'm Leo" /></a></p>
+
 I'm an iOS Developer hailing from China.
 
 <br />
