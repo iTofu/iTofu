@@ -28,6 +28,9 @@ jobs:
     steps:
       # generate static github stats cards, published to the same output branch
       # (the public vercel instance of github-readme-stats is unreliable / paused)
+      # fail_on_error: a data-fetch error aborts the job before the push step, so
+      # the output branch keeps the last good card instead of a "Something went
+      # wrong" error card
       # NOTE: stats steps must run before snk, which is a docker action running as
       # root — dist/ must be created by the runner user or these steps get EACCES
       - name: generate github stats card
@@ -37,6 +40,7 @@ jobs:
           options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true&title_color=8E354A&text_color=616138&icon_color=616138&custom_title=iTofu%27s%20Github%20Stats
           path: dist/github-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
 
       - name: generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
@@ -45,6 +49,7 @@ jobs:
           options: username=${{ github.repository_owner }}&layout=compact&theme=buefy&hide_border=true&title_color=8E354A&text_color=616138&icon_color=8E354A
           path: dist/github-top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
 
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate github-contribution-grid-snake.svg
