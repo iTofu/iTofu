@@ -1,0 +1,10 @@
+.DS_Store
+
+# handoff-skills session snapshots (https://github.com/iTofu/handoff-skills)
+.handoff/
+
+# Claude Code
+CLAUDE.local.md
+**/.claude/*.local.md
+**/.claude/*.local.json
+.claude/*.lock
